@@ -1,7 +1,33 @@
-<img src="https://raw.githubusercontent.com/sokrypton/ColabFold/main/.github/ColabFold_Marv_Logo_Small.png" height="200" align="right" style="height:240px"/>
+# ColabFold: AlphaFold2 using MMseqs2  
+## Author: Google Brain  
+### Year: 2021  
+<br>
 
-##ColabFold: AlphaFold2 using MMseqs2
+#### OK, google again  
 
-Easy to use protein structure and complex prediction using [AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2) and [Alphafold2-multimer](https://www.biorxiv.org/content/10.1101/2021.10.04.463034v1). Sequence alignments/templates are generated through [MMseqs2](mmseqs.com) and [HHsearch](https://github.com/soedinglab/hh-suite). For more details, see <a href="#Instructions">bottom</a> of the notebook, checkout the [ColabFold GitHub](https://github.com/sokrypton/ColabFold) and read our manuscript. Old versions: [v1.0](https://colab.research.google.com/github/sokrypton/ColabFold/blob/v1.0-alpha/AlphaFold2.ipynb), [v1.1](https://colab.research.google.com/github/sokrypton/ColabFold/blob/v1.1-premultimer/AlphaFold2.ipynb), [v1.2](https://colab.research.google.com/github/sokrypton/ColabFold/blob/v1.2.0/AlphaFold2.ipynb), [v1.3](https://colab.research.google.com/github/sokrypton/ColabFold/blob/v1.3.0/AlphaFold2.ipynb)
+---
+
+Easy to use AlphaFold2 [(Jumper et al. 2021)](https://www.nature.com/articles/s41586-021-03819-2) protein structure prediction using multiple sequence alignments generated through an MMseqs2 API. For details, refer to our manuscript:
+
+[Mirdita M, Ovchinnikov S, Steinegger M. ColabFold - Making protein folding accessible to all.
+*bioRxiv*, 2021](https://www.biorxiv.org/content/10.1101/2021.08.15.456425v1) 
+
+- This notebook provides basic functionality, for more advanced options (such as modeling heterocomplexes, increasing recycles, sampling, etc.) see our [advanced notebook](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/beta/AlphaFold2_advanced.ipynb).
+- This notebook replaces the homology detection of AlphaFold2 with MMseqs2. For a comparision against the [Deepmind Colab](https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb) and the full [AlphaFold2](https://github.com/deepmind/alphafold) system read our [preprint](https://www.biorxiv.org/content/10.1101/2021.08.15.456425v1). 
+
+![](https://raw.githubusercontent.com/sokrypton/ColabFold/main/.github/ColabFold_Marv_Logo_Small.png)
 
 [Mirdita M, Schütze K, Moriwaki Y, Heo L, Ovchinnikov S, Steinegger M. ColabFold: Making protein folding accessible to all. *Nature Methods*, 2022](https://www.nature.com/articles/s41592-022-01488-1)
+
+```{r block1}
+summary(cars)
+```
+
+```{r block2, echo=FALSE}
+plot(pressure)
+```
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :----------- | :------------: | ------------: |
+| git status   | git status.    | git status    |
+| git diff     | git diff.      | git diff      |
